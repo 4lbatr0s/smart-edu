@@ -1,0 +1,4 @@
+1-build express.
+2- build ejs-> templete engine, static dosyalar, 
+3-public, views folders.
+4- change views html to ejs.
