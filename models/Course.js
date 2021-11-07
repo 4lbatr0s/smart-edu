@@ -6,16 +6,17 @@ const CourseSchema = new Schema({
   name: {
     type: String,
     unique: true,
-    required: true,
+    required: true
   },
   description: {
     type: String,
     required: true,
+    trim:true
   },
   createdAt: {
     type: Date,
-    default: null,
-  },
+    default: Date.now
+  }
 });
 
 //now turn Schema above into a MODEL
@@ -23,4 +24,4 @@ const CourseSchema = new Schema({
 const Course = mongoose.model('Course', CourseSchema)
 
 //export the model.
-model.exports = Course;
+module.exports = Course;

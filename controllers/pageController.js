@@ -13,3 +13,4 @@ exports.getIndexPage = (req, res) => {
       page_name:"about"
     })
   }
+
