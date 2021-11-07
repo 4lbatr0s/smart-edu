@@ -2,3 +2,17 @@
 2- build ejs-> templete engine, static dosyalar, 
 3-public, views folders.
 4- change views html to ejs.
+5-Special to this project =   <li class="nav-item <%=page_name === 'index' && 'active' %>"><a class="nav-link" href="/">Home</a></li>
+6- controllers folder create.
+7- routes folder create.
+8- include mongoose object document mapper and create a model, it helps us to create models.
+9- create a course model
+//we only create models for the entities we are going to manipulate, for example we are going to create new courses, delete them, update or make adjustments on them regularly, 
+therefore a model of course is required.
+10-create a courseController
+11-create a courseRoute.js file.
+
+//requirements
+On including hierarchy: first to include 3rd party npm.com packages
+Secondly include the modules we've created or core modules of node js susch as fs
+Lastly include mvc files.
